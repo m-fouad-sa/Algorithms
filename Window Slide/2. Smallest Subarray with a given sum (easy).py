@@ -38,7 +38,8 @@ def algo(arr,s):
             windowSum -= arr[startWindow]
             startWindow +=1
         
-            
+    if min_Length ==  math.inf:
+        return 0     
         
     return min_Length
 
